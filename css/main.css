@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    width: 100%;
+    margin: auto;
+    flex:1;
+    background: #000;
+}
+.header img {
+    width: 100%;
+}
+.video-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap:10px;
+    flex:3;
+    background: #000;
+}
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
