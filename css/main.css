@@ -162,3 +162,82 @@ button i {
     line-height: 30px;
     color:rgb(109, 107, 107);
 }
+.show {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .video-card {
+        flex-basis: 30%;
+    }
+    .sidebar-left,
+    input {
+        display: none;
+    }
+    .nav-left {
+        flex:1;
+    }
+    .nav-center {
+       display: none;
+    }
+    .nav-right {
+        flex:1;
+    }
+    .hidden{
+        display: none !important;
+    }
+    .show {
+        display: block;
+    }
+
+}
+@media (max-width: 770px) {
+    .video-card {
+        flex-basis: 49%;
+    }
+    .sidebar-left,
+    input {
+        display: none;
+    }
+    .nav-left {
+        flex:1;
+    }
+    .nav-center {
+       display: none;
+    }
+    .nav-right {
+        flex:1;
+    }
+    .hidden{
+        display: none !important;
+    }
+    .show {
+        display: block;
+    }
+
+}
+@media (max-width: 700px) {
+    .video-card {
+        flex-basis: 100%;
+    }
+    .sidebar-left,
+    input {
+        display: none;
+    }
+    .nav-left {
+        flex:1;
+    }
+    .nav-center {
+       display: none;
+    }
+    .nav-right {
+        flex:1;
+    }
+    .hidden{
+        display: none !important;
+    }
+    .show {
+        display: block;
+    }
+
+}
